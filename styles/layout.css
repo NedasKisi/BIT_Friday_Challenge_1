@@ -1,1 +1,124 @@
+.sidebar {
+  background-color: #f7f6ff;
+  position: relative;
+  display: flex;
+  position: absolute;
+  width: 100%;
+}
+
+.sidebar nav {
+  height: 100%;
+}
+
+.sidebar .sidebar_nav {
+  display: flex;
+  text-align: center;
+  align-self: flex-start;
+  height: 100%;
+  position: relative;
+  list-style: none;
+  padding: 0;
+}
+
+.line1 {
+  margin-left: -1rem;
+}
+
+.sidebar:hover {
+  width: 12.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  transition: width 0.3s;
+}
+
+.sidebar .sidebar_nav .sidebar_nav_link {
+  align-items: center;
+  color: #bbb;
+  display: flex;
+  text-decoration: none;
+}
+
+.sidebar .sidebar_nav .sidebar_nav_link:hover,
+img:hover {
+  color: #02577a;
+}
+
+.sidebar .sidebar_nav .sidebar_nav_text {
+  display: none;
+  margin-left: 0.625rem;
+  margin-right: auto;
+  white-space: nowrap;
+}
+
+.sidebar .sidebar_nav li {
+  display: flex;
+  align-items: center;
+  justify-content: justify;
+  padding-left: 1rem;
+}
+
+.sidebar .sidebar_nav .sidebar_nav_link {
+  height: 100%;
+  padding: 0.75em;
+}
+
+.sidebar .sidebar_nav {
+  font-size: 1rem;
+}
+
+.sidebar .sidebar_nav {
+  flex-direction: column;
+  width: 100%;
+}
+
+.sidebar .sidebar_nav .sidebar_nav_link {
+  padding: 1em;
+}
+
+.sidebar:hover .sidebar_nav .sidebar_nav_text {
+  display: inline;
+  transition: text 1s ease-in-out;
+}
+.sidebar:hover .sidebar_nav .bitlogo {
+  align-self: center;
+}
+
+.sidebar:hover .sidebar_nav .line {
+  width: 8.01375rem;
+}
+
+.line {
+  width: 63px;
+  background: #c4c4c4;
+  height: 2px;
+}
+
+.bitlogo {
+  width: 68px;
+  height: 34px;
+  margin-left: 16px;
+  margin-top: 32px;
+}
+
+.i_dimension1,
+.i_dimension2,
+.i_dimension3,
+.i_game {
+  width: 25px;
+  height: 25px;
+}
+
+.i_game {
+  height: 15px;
+}
+
+p {
+  border-top: solid 2px #02577a;
+  margin-left: 30rem;
+  margin-right: 30rem;
+  padding-top: 0.5rem;
+  font-size: 11px;
+}
 
